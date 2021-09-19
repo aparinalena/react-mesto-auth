@@ -1,0 +1,11 @@
+.header__logged-info {
+  display: flex;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logged-info {
+    align-self: end;
+    margin-bottom: 1px;
+    display: block;
+  }
+}
